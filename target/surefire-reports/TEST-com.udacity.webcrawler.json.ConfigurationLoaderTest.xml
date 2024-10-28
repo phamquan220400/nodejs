@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.udacity.webcrawler.json.ConfigurationLoaderTest" time="0.051" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/test-classes:/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/classes:/home/quanpv/.m2/repository/com/google/inject/guice/5.0.1/guice-5.0.1.jar:/home/quanpv/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/quanpv/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/home/quanpv/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/quanpv/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/quanpv/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/quanpv/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/quanpv/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/quanpv/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/quanpv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/home/quanpv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/home/quanpv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/home/quanpv/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/quanpv/.m2/repository/com/google/truth/truth/1.0.1/truth-1.0.1.jar:/home/quanpv/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/quanpv/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/quanpv/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/quanpv/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar:/home/quanpv/.m2/repository/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar:/home/quanpv/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/quanpv/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/quanpv/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/quanpv/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/quanpv/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="testDataDir" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/src/test/data"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="crawlerImplementations" value="com.udacity.webcrawler.SequentialWebCrawler&#10;                                com.udacity.webcrawler.ParallelWebCrawler"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-18-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/surefire/surefirebooter4771778431473288929.jar /home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/surefire 2024-08-04T20-20-41_929-jvmRun1 surefire4978421780016122790tmp surefire_06781713023939637920tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/test-classes:/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/classes:/home/quanpv/.m2/repository/com/google/inject/guice/5.0.1/guice-5.0.1.jar:/home/quanpv/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/quanpv/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/home/quanpv/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/quanpv/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/quanpv/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/quanpv/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/quanpv/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/quanpv/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/quanpv/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/home/quanpv/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/home/quanpv/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/home/quanpv/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/quanpv/.m2/repository/com/google/truth/truth/1.0.1/truth-1.0.1.jar:/home/quanpv/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/quanpv/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/quanpv/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/quanpv/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar:/home/quanpv/.m2/repository/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar:/home/quanpv/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.3/error_prone_annotations-2.3.3.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/quanpv/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/quanpv/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/quanpv/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/quanpv/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/quanpv/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/quanpv"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-18-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler/target/surefire/surefirebooter4771778431473288929.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2-ea+9-Ubuntu-222.04"/>
+    <property name="user.name" value="quanpv"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-44-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/quanpv/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="18.0.2-ea"/>
+    <property name="user.dir" value="/home/quanpv/Documents/Udacity/Java_Nano/Reference/Parallel-Web-Crawler/webcrawler"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="18.0.2-ea+9-Ubuntu-222.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testOptionalOptions" classname="com.udacity.webcrawler.json.ConfigurationLoaderTest" time="0.044"/>
+  <testcase name="testBasicJsonConversion" classname="com.udacity.webcrawler.json.ConfigurationLoaderTest" time="0.005"/>
+</testsuite>
