@@ -72,13 +72,13 @@ final class ProfilerImpl implements Profiler {
             writeData(writer);
             writer.flush();
         } catch (IOException ex) {
-            ex.printStackTrace();
+            ex.fillInStackTrace();
         } finally {
             if (writer != null) {
                 try {
                     writer.close();
                 } catch (IOException ex) {
-                    ex.printStackTrace();
+                    ex.fillInStackTrace();
                 }
             }
         }

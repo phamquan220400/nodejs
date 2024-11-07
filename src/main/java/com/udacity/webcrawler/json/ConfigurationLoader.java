@@ -34,7 +34,7 @@ public final class ConfigurationLoader {
     try (Reader reader = Files.newBufferedReader(path)) {
       return read(reader);
     } catch (IOException ex) {
-      ex.printStackTrace();
+      ex.fillInStackTrace();
       return null;
     }
   }
@@ -57,7 +57,7 @@ public final class ConfigurationLoader {
       config = mapper.readValue(reader, CrawlerConfiguration.Builder.class).build();
       return config;
     } catch (Exception ex) {
-      ex.printStackTrace();
+      ex.fillInStackTrace();
       return null;
     }
   }
